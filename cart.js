@@ -20,17 +20,17 @@
 
 
 
-// function calculateTotal(cart) {
-//   let total = 0;
+function calculateTotal(cart) {
+  let total = 0;
 
-//   for (let item of cart) {
-//     total += item.price * item.quantity;
-//   }
+  for (let item of cart) {
+    total += item.price * item.quantity;
+  }
 
-//   return total;
-// }
+  return total;
+}
 
-// module.exports = calculateTotal;
+module.exports = calculateTotal;
 
 
 
